@@ -12,6 +12,7 @@ body{
   font-family: 'chivo';
   background-color: white;
   color: var(--text-color);
+  padding-top: 70px;
 }
 
 a{
