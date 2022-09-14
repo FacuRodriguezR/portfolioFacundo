@@ -11,11 +11,12 @@
   .wave {
     width: 100%;
     position: relative;
-    top: 2px;
+    top: -3px;
   }
   
   .wave_bottom {
     transform: scaleY(-1);
+  
     top: -2px;
   }
   

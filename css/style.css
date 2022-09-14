@@ -1,11 +1,19 @@
 :root {
-  --theme-color: #fffae7;
-  --primary-color: #52392f;
-  --secundary-color: #8c614f;
-  --text-color-inverse: white;
-  --text-color: black;
-  --navbar-shallow-color: #e5e5e5;
-  --menu-mobile-background-color: #8c614f;
+  --theme-color: #ffffff;
+  --primary-color: #114B5F;
+  --secundary-color: #FCE762;
+  --text-color-inverse: #FFFDED;
+  --text-color: #404040;
+  --navbar-shallow-color: #676767;
+  --menu-mobile-background-color: #829CBC;
+}
+
+html{
+  scroll-behavior: smooth;
+}
+
+section[id]{
+  scroll-margin-top: 70%;
 }
 
 body{
@@ -18,6 +26,10 @@ body{
 a{
   text-decoration: none;
   color: var(--text-color);
+}
+
+a:hover{
+  filter: brightness(140%);
 }
 
 .horizontal-padding{

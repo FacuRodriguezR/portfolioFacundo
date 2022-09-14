@@ -67,15 +67,15 @@
               width="50"
             />
           </button>
-          <li><a href="#perfil"></a>Perfil</li>
-          <li><a href="#experiencia"></a>Experiencia</li>
-          <li><a href="#habilidades"></a>Habilidades</li>
-          <li><a href="#contacto"></a>Contacto</li>
+          <li><a href="#perfil" class="selected">Perfil</a></li>
+          <li><a href="#experiencia">Experiencia</a></li>
+          <li><a href="#habilidades">Habilidades</a></li>
+          <li><a href="#contacto">Contacto</a></li>
         </ul>
       </nav>
     </header>
     <div class="horizontal-padding vertical-padding">
-      <section class="profile">
+      <section class="profile" id="perfil">
         <div class="profile-info">
           <h1 class="profile-title">Hola, Soy Facundo Rodriguez</h1>
           <p class="profile-details">
@@ -98,8 +98,8 @@
       </section>
     </div>
 
-    <section class="experiences">
-      <img src="./assets/img/images/wave.svg" alt="wave" />
+    <section class="experiences" id="experiencia">
+      <img src="./assets/img/images/wave1.svg" alt="wave" />
       <div class="experiences-body">
         <h2 class="experiences-title">Experiencia</h2>
         <div class="experiences-grid">
@@ -130,11 +130,11 @@
           </div>
         </div>
       </div>
-      <img src="./assets/img/images/waveinverse.svg" alt="división" class="wave wave_bottom">
+      <img src="./assets/img/images/wave1.svg" alt="división" class="wave wave_bottom">
     </section>
 
     <div class="horizontal-padding vertical-padding">
-      <section class="skills">
+      <section class="skills" id="habilidades">
         <h2 class="skills-title">Habilidades</h2>
         <ul class="skills-list">
           <li class="skills-skill">CSS3</li>
@@ -144,6 +144,11 @@
           <li class="skills-skill">REACT JS</li>
           <li class="skills-skill">POSGRESQL</li>
         </ul>
+      </section>
+    </div>
+    <div class="horizontal-padding vertical-padding">
+      <section class="contact-body" id="contacto">
+        <h2 class="contact-title">CONTACTO</h2>
       </section>
     </div>
   </body>

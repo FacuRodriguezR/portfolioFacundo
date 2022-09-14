@@ -3,48 +3,49 @@
 
 
 
-.profile-img{
+.profile-info {
+    margin-bottom: 25px;
+  }
+  
+  .profile-img {
     width: 80%;
     max-width: 300px;
-}
-
-.profile-img-section{
-    position: relative;
-    
+  }
   
-}
-
-.profile-img-line{
+  .profile-img-section {
+    position: relative;
+  }
+  
+  .profile-img-line {
     background-color: var(--secundary-color);
     height: 15px;
     position: absolute;
     width: 100%;
     left: 0;
     bottom: 0;
-
-}
-
-.profile{
+  }
+  
+  .profile {
     text-align: center;
-}
-
-.profile-title{
+  }
+  
+  .profile-title {
     font-size: 35px;
     font-weight: bold;
     margin: 0;
     color: var(--primary-color);
-    font-family: 'noto sans', sans-serif;
-}
-
-.profile-details{
+    font-family: "Noto Sans", sans-serif;
+  }
+  
+  .profile-details {
     font-size: 18px;
     font-weight: 500;
     line-height: 1.3;
     max-width: 450px;
     margin: 20px auto;
-}
-
-.profile-btn{
+  }
+  
+  .profile-btn {
     background-color: var(--primary-color);
     color: var(--text-color-inverse);
     border: none;
@@ -52,78 +53,43 @@
     padding: 0.5em 1em;
     border-radius: 7px;
     cursor: pointer;
-}
-
-.profile-btn:hover{
+  }
+  
+  .profile-btn:hover {
     filter: brightness(130%);
-}
-.profile-info{
-    margin-bottom: 25px;
-}
+  }
 
 @media (min-width: 950px) {
-    .profile-info{
+    .profile-info {
         margin-bottom: 0px;
-    }
-
-
-    .profile-img{
+      }
+      
+      .profile-img {
         width: 100%;
         max-width: 350px;
         transform: scaleX(-1);
-    }
-    
-    .profile-img-section{
-        position: relative;
-        
+      }
       
-    }
-    
-    .profile-img-line{
-        background-color: var(--secundary-color);
-        height: 15px;
-        position: absolute;
-        width: 100%;
-        left: 0;
-        bottom: 0;
-    
-    }
-    
-    .profile{
+      .profile {
         text-align: left;
         display: flex;
         justify-content: space-between;
-        margin: 0 auto;
         max-width: 980px;
+        margin: 0 auto;
         align-items: center;
-    }
-    
-    .profile-title{
+      }
+      
+      .profile-title {
         font-size: 60px;
-        font-weight: bold;
-        margin: 20px auto;
-        color: var(--primary-color);
-        font-family: 'noto sans', sans-serif;
-    }
-    
-    .profile-details{
-        font-size: 30px;
-        font-weight: 500;
-        line-height: 1.3;
-        max-width: 450px;
+      }
+      
+      .profile-details {
+        font-size: 25px;
         margin: 30px 0;
-    }
-    
-    .profile-btn{
-       
+      }
+      
+      .profile-btn {
         font-size: 28px;
-        margin: 40px auto;
-    }
-     
-    
-    .profile-btn:hover{
-        filter: brightness(130%);
-    }
-   
+      }
 
 }
