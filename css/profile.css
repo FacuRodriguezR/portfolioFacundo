@@ -46,17 +46,22 @@
   }
   
   .profile-btn {
-    background-color: var(--primary-color);
+    background-color: var(--secundary-color);
     color: var(--text-color-inverse);
     border: none;
     font-size: 20px;
     padding: 0.5em 1em;
     border-radius: 7px;
     cursor: pointer;
+   
   }
   
   .profile-btn:hover {
     filter: brightness(130%);
+  }
+
+  .profile-btn a {
+    color: var(--primary-color);
   }
 
 @media (min-width: 950px) {
