@@ -77,6 +77,17 @@
     display: none;
 }
 
+.footer{
+    background-color: var(--primary-color);
+    text-align: center;
+    padding: 50px;
+    width: 100%;
+}
+
+.footer-title a{
+    color: var(--text-color-inverse);
+}
+
 @media ( max-width: 950px ) {
  
     .menu{

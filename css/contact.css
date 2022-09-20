@@ -1,60 +1,60 @@
-
-
-
-.contact-body{
-    background-color: var(--primary-color);
-    padding: 40px;
+.contact-body {
+  max-width: 980px;
+  margin: 0 auto;
 }
 
-.contact-title{
-    font-size: 30px;
-    font-weight: bold;
-    text-transform: uppercase;
-    text-align: center;
-    color: var(--text-color-inverse);
-    padding: 20px;
+.contact-title {
+  font-size: 30px;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--primary-color);
+  padding: 20px;
 }
 
 .contact-list {
-    list-style: none;
-    padding: 0;
-   
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  list-style: none;
+  padding: 0;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
-.contact-mode{
-    display: flex;
-    font-size: 20px;
-    font-weight: 500;
-    box-shadow: 0 4px 10px rgba(255, 255, 255, 0.25);
-    border-radius: 42px;
-    padding: 0.5em 0.7em;
-    margin: 10px;
-    align-items: center;
-    margin: 4px;
+.contact-mode {
+  display: flex;
+  font-size: 20px;
+  font-weight: 500;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
+  border-radius: 42px;
+  padding: 0.5em 0.7em;
+  margin: 10px;
+  align-items: center;
+  margin: 4px;
 }
 
-.logo-contact{
-    width: 80px;
-    padding: 10px;
-
+.logo-contact {
+  width: 60px;
+  padding: 10px;
 }
 
 .wavec {
-    width: 100%;
-    position: relative;
-    top: -3px;
-  }
-  
-  .wave_bottomc {
-    transform: scaleY(-1);
-  
-    top: -17px;
+  width: 100%;
+  position: relative;
+  top: -3px;
+}
+
+.wave_bottomc {
+  transform: scaleY(-1);
+
+  top: -17px;
+}
+
+@media (min-width: 950px) {
+  .contact-title {
+    font-size: 30px;
   }
 
-  @media(min-width: 950px){
-    .contact-mode{
-        margin: 20px;
-    }
+  .contact-mode {
+    margin: 20px;
   }
+}
