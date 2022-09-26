@@ -17,7 +17,7 @@
   }
   
   .profile-img-line {
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     height: 15px;
     position: absolute;
     width: 100%;
@@ -46,7 +46,7 @@
   }
   
   .profile-btn {
-    background-color: var(--secundary-color);
+    background-color: var(--secondary-color);
     color: var(--text-color-inverse);
     border: none;
     font-size: 20px;
