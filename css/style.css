@@ -17,8 +17,8 @@ section[id]{
 }
 
 body{
-  font-family: 'chivo';
-  background-color: white;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  background-color: #e6e6e6;
   color: var(--text-color);
   padding-top: 70px;
 }

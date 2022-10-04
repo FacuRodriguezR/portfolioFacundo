@@ -4,7 +4,7 @@
   font-size: 18px;
   border-radius: 14px;
   padding: 25px;
-
+  box-shadow: 0 0 14px var(--primary-color) ;
   display: grid;
   gap: 25px;
 }
@@ -69,6 +69,7 @@
 
 .contact-form-submit:hover {
   box-shadow: 0 0 14px var(--secondary-color);
+  transition: all 0.3s ease-in-out ;
 }
 
 .social-list{
@@ -82,6 +83,8 @@
 }
 .social-list img:hover{
   filter: drop-shadow(0 0 14px var(--secondary-color));
+  transition: all 0.2s ease-in-out ;
+
 }
 
 @media (min-width: 950px){

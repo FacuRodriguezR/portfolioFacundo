@@ -12,11 +12,13 @@
     width: 100%;
     position: relative;
     top: -3px;
+  
+    
   }
   
   .wave_bottom {
     transform: scaleY(-1);
-  
+    filter: drop-shadow(0 0 14px var(--primary-color)) ;
     top: -2px;
   }
   
@@ -49,7 +51,7 @@
   .estudios-description {
     font-weight: 400;
     font-size: 15px;
-    margin-top: 10px;
+    margin: 10px 0;
   }
   
   .estudio {
