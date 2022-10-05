@@ -16,6 +16,10 @@
 }
 /* logo */
 
+.nameNav {
+    color: var(--text-color);
+}
+
 .logo{
     display: flex;
     align-items: center;
