@@ -12,6 +12,7 @@
   }
   
   .skills-skill {
+    min-width: 200px ;
     display: flex;
     font-size: 20px;
     font-weight: 500;
@@ -21,6 +22,8 @@
     margin: 10px;
     align-items: center;
     margin: 4px;
+    justify-content: center;
+    
   }
 
  
