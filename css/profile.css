@@ -2,7 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Chivo:wght@300;400&family=Noto+Sans:wght@100;300&family=Righteous&display=swap');
 
 .letterName{
-
+ 
   display: block;
   position: relative;
 }
@@ -16,6 +16,7 @@
   position: absolute;
   animation: maquina 3s infinite alternate steps(18);
   background-color: #e6e6e6;
+  
 
 }
 
@@ -91,7 +92,7 @@
     color: var(--primary-color);
   }
 
-@media (min-width: 950px) {
+@media (min-width: 988px) {
 
   .letterName::after{
     content: "";
