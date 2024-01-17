@@ -34,7 +34,7 @@
 
   .profile-img:hover {
     filter: drop-shadow(0 0 14px var(--primary-color));
-    transition: all 0.3s ease-in-out;
+    transition: all 0.2s ease-in-out;
   }
   
   .profile-img-section {
@@ -85,7 +85,7 @@
   .profile-btn:hover {
    
     box-shadow: 0 4px 8px var(--primary-color);
-    transition: all 0.3s ease-out;
+    transition: all 0.2s ease-out;
   }
 
   .profile-btn a {
